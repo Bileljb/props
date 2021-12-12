@@ -2,9 +2,10 @@
   const  Handlealert=(fname)=>{alert(`Hello ${fname}`)}
 
 function Fullname(props){
+    const State = {color : "green"}
     return(
         <>
-        <h1 id="fname">{props.fname}</h1>
+        <h1 style={State} id="fname">{props.fname}</h1>
         <button onClick={ ()=>    Handlealert((props.fname))  }  >click me !</button>
 </>
         

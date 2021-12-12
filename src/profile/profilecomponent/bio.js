@@ -1,8 +1,9 @@
 
 
 function Bio(props){
+    const State = {color : "red"}
     return(
-        <p> {props.bio}
+        <p style={State}> {props.bio}
         </p>
     )
 }
